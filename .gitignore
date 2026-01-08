@@ -1,0 +1,42 @@
+# Dependencies
+node_modules
+__pycache__
+*.pyc
+
+# Build outputs
+.next
+.turbo
+dist
+build
+
+# Environment files - NEVER commit
+.env
+.env.*
+!.env.example
+
+# Secrets - NEVER commit
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+service-account*.json
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+.vscode/settings.json
+.DS_Store
+
+# Testing
+coverage/
+.nyc_output/
+
+# Database
+*.db
+*.sqlite
+prisma/*.db
