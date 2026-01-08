@@ -1,5 +1,9 @@
 # StoreToStove
 
+[![Quality Checks](https://github.com/jorjdev/storetostove/actions/workflows/quality.yml/badge.svg)](https://github.com/jorjdev/storetostove/actions/workflows/quality.yml)
+[![Security](https://github.com/jorjdev/storetostove/actions/workflows/security.yml/badge.svg)](https://github.com/jorjdev/storetostove/actions/workflows/security.yml)
+[![codecov](https://codecov.io/gh/jorjdev/storetostove/branch/main/graph/badge.svg)](https://codecov.io/gh/jorjdev/storetostove)
+
 A monorepo with Next.js frontend and NestJS backend, ready to deploy to Railway.
 
 ## Stack
